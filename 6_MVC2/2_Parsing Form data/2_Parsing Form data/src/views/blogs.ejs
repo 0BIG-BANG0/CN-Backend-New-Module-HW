@@ -1,0 +1,12 @@
+<!-- // Write your code here -->
+<h1>Blogs</h1>
+<% blogs.forEach(blog => { %>
+<div class="card" style="width: 18rem;">
+    <img src="<%= blog.img %>" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title"><%= blog.title %></h5>
+      <p class="card-text"><%= blog.description %></p>
+    </div>
+  </div>
+  <% }); %>
+
